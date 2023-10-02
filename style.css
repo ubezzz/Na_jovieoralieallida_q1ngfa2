@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Young+Serif&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#navbar{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 1px;
+    text-align: center;
+    background-color: #292A31;
+}
+#links{
+    display: inline;
+
+}
+#navbar #links a{
+    text-transform: capitalize;
+    font-weight:600;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    opacity: 0.60;
+    transition: 0.4s;
+}
+#navbar #links a:hover{ opacity: 1; transition: 0.4s}
+#yt{background-color: rgb(241, 50, 50); color: black;}
+#fb{background-color: rgb(81, 81, 241); color: white;}
+#dc{background-color: grey; color: black;}
+#ig{background-color: rgb(163, 71, 71); color : white;}
+#twt{background-color: rgba(0, 0, 0, 0.747); color: white;}
+.rounded{border-radius: 5px;}
+
+.banner{
+    padding: 30px;
+    background-image: url(coffee.jpg);
+    background-repeat: no-repeat;      
+    background-position-x: center;    
+    background-color: antiquewhite;
+    background-size: cover;
+    width: 100vw;
+    height: 75vh;
+    
+}
+.banner h2{
+    font-family: 'Young Serif', serif;
+    color: #DF8B53;  
+    text-shadow: 1px 2px #000000;
+   
+
+}
+
+.banner span{
+    color: #CFA877;
+    text-align: center;
+
+}
+
+.banner p{
+    text-shadow: 1px 2px #000000;
+    color: #DCBF93;
+    margin-bottom: 30px;
+    font-family: 'Oswald', sans-serif;
+
+}
+.banner a{
+    color: #DCBF93;
+    background-color: #BD7961;
+    padding: 10px;
+    text-decoration: none;
+    margin: 2px;
+}
